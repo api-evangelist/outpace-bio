@@ -1,8 +1,26 @@
 aid: outpace-bio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/outpace-bio.png
 name: Outpace Bio
-description: 'Outpace Bio is a company surfaced as a portfolio company of playground-global and added
-  to the API Evangelist network as a stub for enrichment. Sector: engineered-biology. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Outpace Bio is a clinical-stage biotechnology company applying AI-powered
+  protein design to cell therapy, with the mission of curing solid tumors. The company
+  engineers novel proteins that reprogram immune cells to overcome the limitations
+  of current cancer immunotherapies, built on a set of proprietary platform technologies
+  (OUTSPACER, OUTSMART, OUTLAST, OUTSAFE) and logic-gated cell targeting. Outpace Bio
+  is a private, research-driven organization backed by Playground Global; it operates
+  no public developer API, SDK, or third-party technical platform, so this API Evangelist
+  profile captures company identity, web properties, and domain-security posture rather
+  than an API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/outpace-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Engineered Biology
+- Biotechnology
+- Cell Therapy
+- Protein Design
+- Oncology
+- Immunotherapy
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/outpace-bio-domain-security.yml
 - type: Website
   url: https://www.outpacebio.com/
+- type: Blog
+  url: https://www.outpacebio.com/news
+- type: Support
+  url: https://www.outpacebio.com/connect
+- type: PrivacyPolicy
+  url: https://www.outpacebio.com/resources/privacy-policy
+- type: TermsOfService
+  url: https://www.outpacebio.com/resources/terms-of-use
+- type: Careers
+  url: https://jobs.lever.co/outpacebio
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
